@@ -1,29 +1,142 @@
 <div class="user-details">
-  <h1> Featured Projects </h1>
+  <h1 class="h1-proj"> Featured Projects </h1>
 </div>
+<hr class="hr-horizontal">
+
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/sppp.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3> SPPP - Secure File Sharing Website </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> NodeJS, Express, PassportJS</li>
+      <li> MongoDB, Mongoose</li>
+      <li> Bootstrap</li>
+      <li> AWS S3, Elastic Beanstalk</li>      
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>Implemented and deployed a responsive Bootstrap web interface to allow multiple, concurrent users to securely share files with other authenticated users using AWS S3 on Elastic Beanstalk. Incorporated security measures to prevent Buffer Overflows, XSS, Session Hijack attacks, passwords and authentication attacks, and such well-known vulnerabilities in the OWASP</p>
+    <a class="project-link" href="http://spppcse4382uta-env.eba-wqpkkdht.us-east-1.elasticbeanstalk.com/" target="_blank">Check it out</a>
   </div>
 </div>
+
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/parkreview.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3>Park-Review</h3>
     <ul>
-      <li> Featured Skills</li>
+      <li>NodeJS, Express, MongoDB, Bootstrap</li>
+      <li>CRUD, RESTful Routing</li>
+      <li>Heroku</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>Designed, developed and deployed a full stack Node.js web app for reviewing amusement parks based on the concept of Yelp.com. Offers a responsive web design with CRUD functionality using MongoDB, Express, RESTful Routing and Bootstrap</p>
+    <a class="project-link" href="https://parkreview-nihar.herokuapp.com/" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/testing.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3> Java Testing Project </h3>
+    <ul>
+      <li> Control Flow Testing</li>
+      <li> Unit Testing, Program-Level Testing</li>
+      <li> JUnit</li>     
+    </ul>
+    <p>Performed Unit Testing and Program-Level testing using Control Flow Graphs on a Java class. Utilized JUnit to implement and execute the generated test cases and documented the results of the tests in a PDF report</p>
+    <a class="project-link" href="#" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/blog.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3>Blog-It!</h3>
+    <ul>
+      <li>Semantic UI</li>
+      <li>NodeJS, Express, MongoDB</li>
+    </ul>
+    <p>A full stack RESTful Blog Web App with CRUD functionality, styled with Semantic UI and connected with MongoDB at the backend</p>
+    <a class="project-link" href="https://blogapp-nihar.herokuapp.com/" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/rgbcolor.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3> Can you Guess the RGB? </h3>
+    <ul>
+      <li> DOM, CSS</li>
+      <li> VanillaJS</li>    
+    </ul>
+    <p>A user responsive color guessing web app based on RGB values made using the Document Object Model (DOM) Selectors</p>
+    <a class="project-link" href="https://colorgame-nihar.herokuapp.com/" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/mysql.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3>Student Record Keeping System</h3>
+    <ul>
+      <li>mySQL</li>
+      <li>PHP</li>
+    </ul>
+    <p>Created and maintained a mySQL Relational Database for students using requirements, ER/EER, and schema modelels. Performed specialized queries on the database using views, joins and integrated results on a web interface using PHP and HTML</p>
+    <a class="project-link" href="https://github.com/iamNihar07/DoctoralDatabase" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/patatap.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3> Patatap Clone </h3>
+    <ul>
+      <li> PaperJS, HowlerJS</li> 
+    </ul>
+    <p>Clone of the famous patatap.com web app made using libraries of PaperJS and HowlerJS</p>
+    <a class="project-link" href="https://patatapclone-nihar.herokuapp.com/" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/ncurses.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3>Superchat</h3>
+    <ul>
+      <li>OOP in C++</li>
+      <li>nCurses</li>
+      <li>ASIO Networking</li>
+    </ul>
+    <p>Built and handled a Linux based local client chatting messsenger using ASIO network protocols and Ncurses GUI in C. Implemented the functionality to chat with 50 users with spellcheck, chatrooms and private messaging</p>
+    <a class="project-link" href="https://github.com/iamNihar07/SuperChat" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/mice.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3> MICE </h3>
+    <ul>
+      <li> GTKMM, OOP in C++</li> 
+    </ul>
+    <p>Designed and delivered a customized POS system for an ice cream shop using Object Oriented Programming C++ and gtkmm library</p>
+    <a class="project-link" href="https://github.com/iamNihar07/MICE" target="_blank">Check it out</a>
   </div>
 </div>
